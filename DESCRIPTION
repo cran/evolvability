@@ -1,14 +1,15 @@
 Package: evolvability
 Type: Package
-Title: Calculation of evolvability parameters
-Version: 1.0
-Depends: coda
-Date: 2014-01-06
-Author: Geir H. Bolstad
-Maintainer: Geir H. Bolstad <geir.h.bolstad@ntnu.no>
-Description: Calculation of evolvability parameters.
+Title: Calculation of Evolvability Parameters
+Version: 1.1.0
+Authors@R: person("Geir H.", "Bolstad", email = "geir.bolstad@nina.no",
+                  role = c("aut", "cre"))
+Description: An implementation of the evolvability parameters defined in Hansen and Houle (2008).
 License: GPL (>= 2)
-Packaged: 2014-05-26 09:22:08 UTC; geirhysi
+Imports: coda
 NeedsCompilation: no
+Packaged: 2015-06-02 09:00:08 UTC; ningbo
+Author: Geir H. Bolstad [aut, cre]
+Maintainer: Geir H. Bolstad <geir.bolstad@nina.no>
 Repository: CRAN
-Date/Publication: 2014-06-10 11:14:18
+Date/Publication: 2015-06-02 16:51:34
